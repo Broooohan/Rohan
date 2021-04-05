@@ -57,6 +57,7 @@ span {
   align-items: center;
 }
 .btn {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -176,6 +177,7 @@ hr{
   width: 90%;
 }
 .hehe{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 12px 7px;
   border-radius: 6px;
   color: whitesmoke;
@@ -226,4 +228,7 @@ hr{
 footer{
   font-family: "Ubuntu", sans-serif;
   text-align: center;
+}
+.underline{
+  text-decoration: none;
 }
