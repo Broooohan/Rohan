@@ -134,6 +134,7 @@ hr{
     flex-wrap: wrap;
 }
 .small-icon{
+  cursor: pointer;
     padding: 25px;
     width: 50px;
     height: 50px;
@@ -141,6 +142,65 @@ hr{
 .small-icon:hover{
     border-radius: 50%;
     background-color: yellow;
+}
+.school{
+  font-size: 1.4rem;
+  margin: 10px;
+  color: black;
+}
+.clg{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border: 5px solid whitesmoke;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.primary{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  /* margin: auto; */
+  width: 90%;
+}
+.secondary{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: space-around;
+  /* margin: auto; */
+  width: 90%;
+}
+.hehe{
+  margin: 12px 7px;
+  border-radius: 6px;
+  color: whitesmoke;
+  padding: 10px 10px;
+  background-color: #f50057;
+}
+.hehe-c{
+  justify-content: center;
+}
+.proj{
+  text-decoration: none;
+  color: black;
+}
+.proj-p{
+  
+  margin: 0;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+.proj-p:hover{
+  border-radius: 10px;
+  background-color: blanchedalmond;
+}
+.proj-list{
+  display: block;
 }
 .contacts{
     margin: 20px auto;
@@ -150,7 +210,7 @@ hr{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    
+    /* border: 2px solid whitesmoke; */
 }
 .contact-icon{
     margin: 10px 15px;
@@ -162,4 +222,8 @@ hr{
 }
 .contact-icon:hover{
     cursor: pointer;
+}
+footer{
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
 }
